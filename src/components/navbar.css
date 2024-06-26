@@ -1,0 +1,39 @@
+.nav {
+	box-sizing: border-box;
+	padding-block: 1rem;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 4rem;
+}
+.logo > h1 {
+	font-size: 32px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	margin: auto;
+}
+.nav-bar_ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+	list-style: none;
+	color: #565f58;
+	font-size: 13.5px;
+}
+
+.nav_button > button {
+	padding: 10px 35px;
+	border-radius: 5px;
+	font-size: 22px;
+	outline: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	border: none;
+	background-color: #0a7d25;
+}
+

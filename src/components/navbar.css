@@ -37,3 +37,14 @@
 	background-color: #0a7d25;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+	.nav-bar {
+		display: none;
+	}
+	.nav_button {
+		display: none;
+	}
+	.nav {
+		padding-inline: 2rem;
+	}
+}

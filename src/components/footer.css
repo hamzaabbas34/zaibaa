@@ -39,10 +39,14 @@
 }
 
 .copy {
-    position: relative;
-    font-size: 1.2rem;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-
+	position: relative;
+	font-size: 1.2rem;
+	font-family: "Montserrat", sans-serif;
+	color: white;
 }
 
+@media (min-width: 320px) and (max-width: 540px) {
+	.linkss > ul {
+		flex-direction: column;
+	}
+}

@@ -36,7 +36,7 @@ export default function SellingProduct() {
 						<img
 							src="https://i.pinimg.com/564x/ba/26/5a/ba265ab77d17005ee9c66d9bac1112e6.jpg"
 							alt=""
-							className="iamge-w"
+							className="iamge-w  dsss"
 						/>
 					</div>
 				</div>

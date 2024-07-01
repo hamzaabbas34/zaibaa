@@ -3,7 +3,7 @@ import "./selling.css";
 
 export default function SellingProduct() {
 	return (
-		<section className="selling">
+		<section className="selling" id="product">
 			<div className="selling_header">
 				<h2>On My Best </h2>
 				<h3>Selling Products</h3>
@@ -23,21 +23,9 @@ export default function SellingProduct() {
 						<div className="quotes">,,</div>
 					</div>
 					<div className="imagess">
-						<img
-							src="https://i.pinimg.com/564x/ba/26/5a/ba265ab77d17005ee9c66d9bac1112e6.jpg"
-							alt=""
-							className="iamge-w"
-						/>
-						<img
-							src="https://i.pinimg.com/564x/ba/26/5a/ba265ab77d17005ee9c66d9bac1112e6.jpg"
-							alt=""
-							className="iamge-w"
-						/>
-						<img
-							src="https://i.pinimg.com/564x/ba/26/5a/ba265ab77d17005ee9c66d9bac1112e6.jpg"
-							alt=""
-							className="iamge-w  dsss"
-						/>
+						<img src="/image/bottle.jpeg" alt="" className="iamge-w" />
+						<img src="/image/soymlik.jpeg" alt="" className="iamge-w" />
+						<img src="/image/wheat.png" alt="" className="iamge-w  dsss" />
 					</div>
 				</div>
 			</div>

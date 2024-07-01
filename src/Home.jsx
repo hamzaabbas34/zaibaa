@@ -7,6 +7,8 @@ import SellingProduct from "./components/SellingProduct";
 import Stroy from "./components/Stroy";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is imported
 
 export default function Home() {
 	return (
@@ -27,21 +29,50 @@ export default function Home() {
 						on a quest to discover hidden treasures on their farm. Along the
 						way, they cultivate crops, raise animals, and complete exciting
 						challenges. As they unlock secrets and rare items, players enhance
-						their farms, "
+						their farms.
 					</p>
-					<div className="btn">
+					<div className="btn123">
 						<button>
 							<a
 								href="https://www.daraz.pk/products/1-1kg-i384142023-s1887224295.html?spm=a2a0e.searchlist.sku.2.75f4f2ceXsADGs&search=1"
 								target="_blank"
 								rel="noopener noreferrer">
-								Go to Product
+								Products
 							</a>
 						</button>
 					</div>
 				</div>
 				<div className="rf">
-					<img src="/image/home.png" alt="" />
+					<div
+						id="carouselExampleIndicators"
+						className="carousel slide"
+						data-bs-ride="carousel"
+						data-bs-interval="2000" // Change slide every 2 seconds
+					>
+						<div className="carousel-inner">
+							<div className="carousel-item active">
+								<img
+									src="/image/home.png"
+									className="d-block w-100"
+									alt="Slide 1"
+								/>
+							</div>
+							<div className="carousel-item">
+								<img
+									src="/image/Rectangle7.png"
+									className="d-block w-100"
+									alt="Slide 2"
+								/>
+							</div>
+							<div className="carousel-item">
+								<img
+									src="/image/home.png"
+									className="d-block w-100"
+									alt="Slide 3"
+								/>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<Technology />

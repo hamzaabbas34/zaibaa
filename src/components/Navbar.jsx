@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
 	return (
 		<nav className="nav">
@@ -8,14 +9,22 @@ export default function Navbar() {
 			</div>
 			<nav className="nav-bar">
 				<ul className="nav-bar_ul">
-					<li>aboutsUs</li>
-					<li>product</li>
-					<li>Services</li>
-					<li>contactUs</li>
+					<li>
+						<Link to="#Services">Services</Link>
+					</li>
+					<li>
+						<Link to="#product">Best Product</Link>
+					</li>
+					<li>
+						<Link to="#about">Abouts_Us</Link>
+					</li>
+					<li>
+						<Link to="#contact">ContactUs</Link>
+					</li>
 				</ul>
 			</nav>
 			<div className="nav_button">
-				<button>Cart</button>
+				<button>Product</button>
 			</div>
 		</nav>
 	);

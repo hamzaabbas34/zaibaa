@@ -3,7 +3,7 @@ import "./contact.css";
 
 export default function Contact() {
 	return (
-		<div className="contact">
+		<div className="contact" id="contact">
 			<div className="contacy1">
 				<h3 className="contacy1h3">CONTACT_US</h3>
 				<h1 className="contacy1h1">Lets Contact us</h1>
@@ -13,10 +13,10 @@ export default function Contact() {
 				<input type="text" placeholder="FullName ..." />
 				<input type="text" placeholder="Email ..." />
 				<input type="text" placeholder="Password ..." />
-				<textarea name="" id=""  rows={10} placeholder="Message ..."></textarea>
-                <div className="sub">
-                    <button>Submit</button>
-                </div>
+				<textarea name="" id="" rows={10} placeholder="Message ..."></textarea>
+				<div className="sub">
+					<button>Submit</button>
+				</div>
 			</div>
 		</div>
 	);

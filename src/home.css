@@ -48,10 +48,18 @@ html {
 	outline: none;
 	border: none;
 	background-color: inherit;
-	border-radius: 7px;
+	border-radius: 30px;
 	border: 1px solid #0a7d25;
 }
+.btn123 > button:hover {
+	background-color: #0a7d25;
+	color: white;
+}
 
+.btn123 > button:hover a {
+	color: white;
+	text-decoration: none; /* Optional: to remove underline on hover */
+}
 .btn123 > button > a {
 	text-decoration: none;
 	color: #0a7d25;

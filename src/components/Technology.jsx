@@ -35,9 +35,6 @@ export default function Technology() {
 						</p>
 					</div>
 				</div>
-				<div className="btns">
-					<button>views Products </button>
-				</div>
 			</div>
 			<div className="tech2">
 				<div className="tech2_main"></div>

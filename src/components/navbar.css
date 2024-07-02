@@ -33,14 +33,27 @@
 	border-radius: 5px;
 	font-size: 18px;
 	outline: none;
-	color: white;
+	color: #0a7d25;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	border: none;
+	border: 1px solid #0a7d25; 
+	border-radius: 50px ;
+	background-color: inherit;
+	font-weight: 600;
+}
+.nav_button > button:hover{
 	background-color: #0a7d25;
 }
-
+.nav_button > button:hover a {
+	color: white;
+}
+.nav_button > button  a{
+	text-decoration: none;
+	color: #0a7d25;
+	
+}
 @media (min-width: 320px) and (max-width: 768px) {
 	.nav-bar {
 		display: none;

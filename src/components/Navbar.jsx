@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Links } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 export default function Navbar() {
 	return (
 		<nav className="nav">
@@ -10,21 +11,23 @@ export default function Navbar() {
 			<nav className="nav-bar">
 				<ul className="nav-bar_ul">
 					<li>
-						<Link to="#Services">Services</Link>
+						<Links to="#Services">Services</Links>
 					</li>
 					<li>
-						<Link to="#product">Best Product</Link>
+						<Links to="#product">Best Product</Links>
 					</li>
 					<li>
-						<Link to="#about">Abouts_Us</Link>
+						<Links to="#about">Abouts_Us</Links>
 					</li>
 					<li>
-						<Link to="#contact">ContactUs</Link>
+						<Links to="#contact">ContactUs</Links>
 					</li>
 				</ul>
 			</nav>
 			<div className="nav_button">
-				<button>Product</button>
+				<button>
+					<Link to="/product">Product</Link>
+				</button>
 			</div>
 		</nav>
 	);

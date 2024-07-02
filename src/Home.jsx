@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is imported
+import { Link } from "react-router-dom";
 
 export default function Home() {
 	return (
@@ -33,12 +34,7 @@ export default function Home() {
 					</p>
 					<div className="btn123">
 						<button>
-							<a
-								href="https://www.daraz.pk/products/1-1kg-i384142023-s1887224295.html?spm=a2a0e.searchlist.sku.2.75f4f2ceXsADGs&search=1"
-								target="_blank"
-								rel="noopener noreferrer">
-								Products
-							</a>
+							<Link to="/product">Products</Link>
 						</button>
 					</div>
 				</div>
